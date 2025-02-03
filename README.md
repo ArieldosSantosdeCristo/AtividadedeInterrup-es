@@ -30,7 +30,6 @@ Pisca um LED vermelho para indicar funcionamento.
 
 Implementa debounce para evitar leituras erradas dos botões.
 
-Video de explicação: https://drive.google.com/file/d/1Qk1OJzbl-1KQXBf9k94WuCvI0zliMA5o/view?usp=drive_link
-
+Video de explicação:https://drive.google.com/file/d/15B0gYCBnWFmmuHdRYJUx2pAoyyKjWbxZ/view?usp=sharing
 Autor: Ariel dos Santos de Cristo Góes
 
