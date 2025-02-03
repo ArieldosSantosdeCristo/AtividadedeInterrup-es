@@ -40,7 +40,7 @@
         "id": "btn1",
         "top": -61,
         "left": 57.6,
-        "attrs": { "color": "green" }
+        "attrs": { "color": "red" }
       },
       {
         "type": "wokwi-pushbutton",
@@ -148,9 +148,9 @@
       [ "btn2:2.r", "pico:GND.4", "black", [ "h19.4", "v144.2" ] ],
       [ "rgb26:COM", "r1:1", "#8f4814", [ "v0" ] ],
       [ "r1:2", "pico:GND.4", "black", [ "v19.2", "h-1.2" ] ],
-      [ "pico:GP13", "rgb26:R", "magenta", [ "h0" ] ],
+      [ "pico:GP13", "rgb26:R", "red", [ "h0" ] ],
       [ "pico:GP12", "rgb26:B", "blue", [ "h-76.8", "v-67.16" ] ],
-      [ "pico:GP11", "rgb26:G", "green", [ "h0" ] ]
+      [ "pico:GP11", "rgb26:G", "orange", [ "h0" ] ]
     ],
     "dependencies": {}
   }

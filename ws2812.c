@@ -7,9 +7,9 @@
   // Biblioteca para LEDs WS2812
 
 
-#define LED_R 11
-#define LED_G 12
-#define LED_B 13
+#define LED_R 13
+#define LED_G 11
+#define LED_B 12
 #define BUTTON_A 5
 #define BUTTON_B 6
 #define LED_PIN 7  // Pino do WS2812
@@ -114,7 +114,7 @@ int main() {
     // Exibe o primeiro número (0)
     display_number(0);
 
-    // Loop principal - Piscar LED verde
+    // Loop principal - Piscar LED vermelho
     while (1) {
         gpio_put(LED_R, 1);
         sleep_ms(BLINK_INTERVAL);
