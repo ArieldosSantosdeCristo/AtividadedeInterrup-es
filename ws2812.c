@@ -114,7 +114,7 @@ int main() {
     // Exibe o primeiro número (0)
     display_number(0);
 
-    // Loop principal - Piscar LED vermelho
+    // Loop principal - Piscar LED verde
     while (1) {
         gpio_put(LED_R, 1);
         sleep_ms(BLINK_INTERVAL);
